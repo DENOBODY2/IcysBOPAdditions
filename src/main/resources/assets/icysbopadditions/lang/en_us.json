@@ -3,6 +3,12 @@
 
   "pack.icysbopadditions.icysretextures.title": "IcyDwarf's Retextures",
   "pack.icysbopadditions.icysretextures.description": "Enable this resource pack to see IcyDwarf's BOP retextures!",
-  "block.icysbopadditions.deen_cactus": "Deen Cactus Block"
+  "block.icysbopadditions.deen_cactus": "Deen Cactus Block",
+  "block.icysbopadditions.deirum_block": "Block of Deirum",
+  "block.icysbopadditions.deirum_ore": "Deirum Ore",
+  "block.icysbopadditions.deepslate_deirum_ore": "Deepslate Deirum Ore",
+  "item.icysbopadditions.deirum": "Deirum Slab",
+  "item.icysbopadditions.deirum_sword": "Deirum Sword",
+  "item.icysbopadditions.deirum_waraxe": "Deirum Waraxe"
 
 }

@@ -5,9 +5,10 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class DeenCactusBlock extends Block {
+public class DeenCactusBlock extends RotatedPillarBlock {
     public DeenCactusBlock(Properties pProperties) {
         super(pProperties);
     }

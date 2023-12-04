@@ -12,7 +12,7 @@ public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, IcysBOPAdditions.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> TAB = CREATIVE_MODE_TABS.register("icysbopadditions", () -> CreativeModeTab.builder()
-            .icon(() -> new ItemStack(ModBlocks.DEEN_CACTUS.get()))
+            .icon(() -> new ItemStack(ModBlocks.DEIRUM_BLOCK.get()))
             .title(Component.translatable("itemGroup.icysbopadditions"))
             .displayItems((pParameters, pOutput) -> {
                 for (var item : ModItems.ITEMS.getEntries()) {

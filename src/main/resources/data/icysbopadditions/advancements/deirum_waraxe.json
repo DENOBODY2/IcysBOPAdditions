@@ -1,0 +1,38 @@
+{
+  "parent": "icysbopadditions:icysbopadditions",
+  "criteria": {
+    "has_deirum_waraxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "icysbopadditions:deirum_waraxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Construct a waraxe out of the mysterious deirum."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "icysbopadditions:deirum_waraxe"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Axe of Ancient Kings"
+    }
+  },
+  "requirements": [
+    [
+      "has_deirum_waraxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

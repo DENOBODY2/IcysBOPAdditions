@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "has_deirum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "icysbopadditions:deirum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "icysbopadditions:textures/block/deirum_ore.png",
+    "description": {
+      "text": "Acquire a myserious ore."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "icysbopadditions:deirum"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "IcyDwarf's BOP Additions"
+    }
+  },
+  "requirements": [
+    [
+      "has_deirum"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

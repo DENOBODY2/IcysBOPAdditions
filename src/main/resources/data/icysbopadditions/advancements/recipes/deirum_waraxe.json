@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deirum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "icysbopadditions:deirum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "icysbopadditions:deirum_waraxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deirum",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "icysbopadditions:deirum_waraxe"
+    ]
+  },
+  "sends_telemetry_event": true
+}

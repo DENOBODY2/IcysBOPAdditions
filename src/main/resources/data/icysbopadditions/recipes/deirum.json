@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "icysbopadditions:deirum_block"
+    }
+  ],
+  "result": {
+    "item": "icysbopadditions:deirum",
+    "count": 9
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " x ",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "icysbopadditions:deirum"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "icysbopadditions:deirum_sword",
+    "count": 1
+  }
+}
